@@ -25,7 +25,7 @@ test(add("", 2), undefined);
 
 
 
-// --- mock example ---
+// --- Exempel på "mockning" ---
 
 var globalDate;
 
@@ -45,9 +45,9 @@ var mockedAsyncFunction = function(callback) {
     callback(42)
 };
 
-asyncFunction = mockedAsyncFunction;    // Replace (mock) asyncFunction with mockedAsyncFunction
+asyncFunction = mockedAsyncFunction;    // Byt ut ("mocka") asyncFunction till mockedAsyncFunction
 
 
-getDateFromServer();    // Will end up calling the mocked function instead of the original
+getDateFromServer();    // Kommer anropa den mockade funktionen istället för originalet
 
 test(globalDate, 42);
