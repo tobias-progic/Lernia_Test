@@ -68,7 +68,7 @@ CI ger korta cykler och snabb feedback vilket gör upptäckande och rättning av
 
 Checkar man in kod som förstör systemet så är det enkelt att backa från sin senaste leverans och därmed se till att systemet fungerar, samtidigt som man löser sin bugg lokalt innan man integrerar på nytt.
 
-Det finns olika CI-system. Ett av de mest välkända heter Jenkins och kan användas som byggserver, CI osv.
+Det finns olika CI-system. Ett av de mest välkända heter Jenkins och kan användas som [byggserver](http://deviq.com/build-server/), CI osv.
 
 Länkar:
 
