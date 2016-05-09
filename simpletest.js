@@ -27,9 +27,9 @@ test(add("", 2), undefined);
 
 // --- Exempel på "mockning" ---
 
-var globalDate;
+var globalDate; // Värdet vi ska testa
 
-function getDateFromServer() {
+function getDateFromServer() {  // Implementationen som vi ska testa
 
     asyncFunction(function(data) {
         globalDate = data;
